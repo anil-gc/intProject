@@ -12,7 +12,7 @@ body{
     justify-content: center;
 }
 
-.container{
+.container1{
     /* background-color: lightblue; */
     width: 50%;
     display: flex;
@@ -79,4 +79,8 @@ button.active{
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+}
+
+button:hover {
+    opacity: 0.5;
 }

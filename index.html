@@ -5,65 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <div class="menu">
-        <div class="menu-items menu-items-current menu-items-home">
-            <a href="#" class="menu-items-link">home</a>
-        </div>
-        <div class="menu-items">
-            <a href="#" class="menu-items-link">motors</a>
-        </div>
-        <div class="menu-items">
-            <a href="#" class="menu-items-link">fashion</a>
-        </div>
-        <div class="menu-items">
-            <a href="#" class="menu-items-link">electronics</a>
-        </div>
-        <div class="menu-items">
-            <a href="#" class="menu-items-link">toys</a>
-        </div>
+         <div class="menu">
+           <div class="menu__main">
+             <div class="menu__main__item menu__main__item--current menu__main__item--home">
+               <a class="menu__main__item__link" href="#">Home</a>
+             </div><div class="menu__main__item menu__main__item--motors">
+               <a class="menu__main__item__link" href="#">Motors</a>
+             </div><div class="menu__main__item menu__main__item--fashion">
+               <a class="menu__main__item__link" href="#">Fashion</a>
+             </div><div class="menu__main__item menu__main__item--electronics">
+               <a class="menu__main__item__link" href="#">Electronics</a>
+             </div><div class="menu__main__item menu__main__item--toys">
+               <a class="menu__main__item__link" href="#">Toys</a>
+             </div><div class="menu__main__item menu__main__item--motors">
+               <a class="menu__main__item__link" href="#">Motors</a>
+             </div><div class="menu__main__item menu__main__item--fashion">
+               <a class="menu__main__item__link" href="#">Fashion</a>
+             </div><div class="menu__main__item menu__main__item--electronics">
+               <a class="menu__main__item__link" href="#">Electronics</a>
+             </div>
+           </div>
+           <div class="menu__sub">
+             <div class="menu__sub__categories">
+               <div class="menu__sub__categories__top menu__sub__categories__category">
+                 <h3 class="menu__sub__categories__header">
+                   Top Categories
+                 </h3>
+                 <ul class="menu__sub__categories__items menu__sub__categories__items--top">
+                 </ul>
+               </div>
+               <div class="menu__sub__categories__additional menu__sub__categories__category">
+                 <h3 class="menu__sub__categories__header">
+                   Additional Categories
+                 </h3>
+                 <ul class="menu__sub__categories__items menu__sub__categories__items--additional">
+                 </ul>
+               </div>
+             </div>
+             <div class="menu__sub__visual">
+               <img class="menu__sub__visual__img" src="img/fashion.jpeg" />
+             </div>
+           </div>
+         </div>
 
-        <div class="menu__sub">
-            <div class="menu__sub__left menu__sub--float">  <!-- sub menu left -->
-            <div class="menu__sub__topCategories menu__sub__left--float">
-                <h3>top categories</h3>
-                <div class="menu__sub__hr"></div>
-                <div class="menu__sub__topCategories__list">
-                    <ul>
-                        <li><a href="#">women clothing</a></li>
-                        <li><a href="#">Women's Shoes</a></li>
-                        <li><a href="#">Men's Clothing</a></li>
-                        <li><a href="#">Men's Shoes</a></li>
-                        <li><a href="#">Watches, Parts & Accessories</a></li>
-                        <li><a href="#">Deals</a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                
-            </div>
-            <div class="menu__sub__addCategories menu__sub__left--float">
-                <h3>additional categories</h3>
-                <div class="menu__sub__hr"></div>
-            <ul>
-                <li><a href="#">Fine Jewelry</a></li>
-                <li><a href="#">Fashion Jewelry</a></li>
-                <li><a href="#">Men's Accessories</a></li>
-                <li><a href="#">Women's Handbags & Bags</a></li>
-                <li><a href="#">Kids' Clothing, Shoes & Accs</a></li>
-            </ul>
-            </div>
-            </div>
+         <div class="container" style="margin-top: 150px;">
+          <h3 class="h3">biggest sale </h3>
+          <div class="row">
+              <div class="col-md-3 col-sm-6">
+                  <div class="product-grid4">
+                      <div class="product-image4">
+                          <a href="#">
+                              <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-1.jpg">
+                              <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-2.jpg">
+                          </a>
+                          <ul class="social">
+                              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                              <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                          </ul>
+                          <span class="product-new-label">New</span>
+                          <span class="product-discount-label">-10%</span>
+                      </div>
+                      <div class="product-content">
+                          <h3 class="title"><a href="item1.html">Women's Black Top</a></h3>
+                          <div class="price">
+                              $14.40
+                              <span>$16.00</span>
+                          </div>
+                          <a class="add-to-cart" href="">ADD TO CART</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="product-grid4">
+                      <div class="product-image4">
+                          <a href="#">
+                              <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-3.jpg">
+                              <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-4.jpg">
+                          </a>
+                          <ul class="social">
+                              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                              <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                          </ul>
+                          <span class="product-discount-label">-12%</span>
+                      </div>
+                      <div class="product-content">
+                          <h3 class="title"><a href="item2.html">Men's Blue Shirt</a></h3>
+                          <div class="price">
+                              $17.60
+                              <span>$20.00</span>
+                          </div>
+                          <a class="add-to-cart" href="">ADD TO CART</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="product-grid4">
+                      <div class="product-image4">
+                          <a href="#">
+                              <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-5.jpg">
+                              <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-6.jpg">
+                          </a>
+                          <ul class="social">
+                              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                              <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                          </ul>
+                          <span class="product-new-label">New</span>
+                          <span class="product-discount-label">-10%</span>
+                      </div>
+                      <div class="product-content">
+                          <h3 class="title"><a href="item3.html">Women's Black Top</a></h3>
+                          <div class="price">
+                              $14.40
+                              <span>$16.00</span>
+                          </div>
+                          <a class="add-to-cart" href="">ADD TO CART</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="product-grid4">
+                      <div class="product-image4">
+                          <a href="#">
+                              <img class="pic-1" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-7.jpg">
+                              <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-8.jpg">
+                          </a>
+                          <ul class="social">
+                              <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                              <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                              <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                          </ul>
+                          <span class="product-new-label">New</span>
+                          <span class="product-discount-label">-10%</span>
+                      </div>
+                      <div class="product-content">
+                          <h3 class="title"><a href="item4.html">Women's Black Top</a></h3>
+                          <div class="price">
+                              $14.40
+                              <span>$16.00</span>
+                          </div>
+                          <a class="add-to-cart" href="">ADD TO CART</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-            <div class="menu__sub__right menu__sub--float"> <!-- sub menu right -->
-                <div class="menu__sub__img">
-                    <img src="img/fashion.jpeg" alt="">
-                </div>
-            </div>
-        </div>
+        
 
-    </div>
     <script src="js/script.js"></script>
-</body>
 </html>
